@@ -1,0 +1,23 @@
+{
+  "name": "artist-data-getter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "spotify:daily": "node spotify.daily.js",
+    "spotify:weekly": "node spotify.weekly.js",
+    "wiki:spotify": "node wiki.spotify.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "camelcase": "^5.3.1",
+    "fs": "0.0.1-security",
+    "infobox-parser": "^3.3.1",
+    "iso-3166-1": "^1.1.0",
+    "node-geocoder": "^3.25.0",
+    "spotify-top-tracks": "^0.2.2",
+    "wikijs": "^6.0.1"
+  }
+}

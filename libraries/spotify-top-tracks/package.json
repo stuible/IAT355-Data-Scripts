@@ -1,0 +1,65 @@
+{
+  "_from": "spotify-top-tracks",
+  "_id": "spotify-top-tracks@0.2.2",
+  "_inBundle": false,
+  "_integrity": "sha1-ri0bcdQrhCfaiT9lYDCKrvTTqGI=",
+  "_location": "/spotify-top-tracks",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "spotify-top-tracks",
+    "name": "spotify-top-tracks",
+    "escapedName": "spotify-top-tracks",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/spotify-top-tracks/-/spotify-top-tracks-0.2.2.tgz",
+  "_shasum": "ae2d1b71d42b8427da893f6560308aaef4d3a862",
+  "_spec": "spotify-top-tracks",
+  "_where": "/Users/josh/School/IAT355/Final Project/spotify-data-getter",
+  "author": {
+    "name": "Eli Fitch",
+    "email": "eli.wtf"
+  },
+  "bugs": {
+    "url": "https://github.com/elifitch/spotify-top-tracks/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "camelcase": "^4.1.0",
+    "csvtojson": "^1.1.7",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  },
+  "deprecated": false,
+  "description": "Get Spotify's top songs by country from https://SpotifyCharts.com",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  },
+  "homepage": "https://github.com/elifitch/spotify-top-tracks#readme",
+  "keywords": [
+    "spotify",
+    "charts",
+    "songs",
+    "top songs",
+    "top tracks"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "spotify-top-tracks",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elifitch/spotify-top-tracks.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "version": "0.2.2"
+}
